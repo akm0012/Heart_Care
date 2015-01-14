@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HeartCare 1.0</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button1">My Risk</string>
+    <string name="button2">Splash Screen</string>
+    <string name="button3">My Network</string>
+    <string name="button4">My ABCS</string>
+    <string name="title_activity_my_risk">HeartCare</string>
+    <string name="title_activity_add_profile">AddProfile</string>
+    <string name="title_activity_heartgame">HeartGame</string>
+    <string name="title_section5">Smoking</string>
+    <string name="title_section4">Cholesterol</string>
+    <string name="title_section3">BloodPressure</string>
+    <string name="title_section2">Aspirin</string>
+    <string name="title_section1">ABCS</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_abcs_aspirin">Heart Education</string>
+    <string name="splash_info">Auburn University\nCOMP3710\nSpring 2013\n- - - - - - - - - - - -\nAndrew Marshall\nCam Adams\nJoseph Shanahan</string>
+    <string name="aspirin1">	Aspirin was the first medicine ever specifically created to treat arthritis, but it currently has a larger role to play in prevention of diseases than their treatment. Aspirin in low doses prevents blood clots that can create acute coronary syndrome, or heart attack, and may reduce the risk of stroke or transient ischemic attacks, called TIAs or mini-strokes. This benefit is best documented for people who already have evidence of coronary heart disease or mini-strokes.
+		Aspirin is also given to patients who received vascular stents, or devices designed to hold open a narrow passage in a blood vessel. Patients with stents are advised to continue daily low dose aspirin unless there is a reason not to take it.
+    	Aspirin may also help reduce the risk of colon cancer, although no one is sure why. The evidence for this is not as strong as that for vascular disease, and aspirin use should not replace other important prevention strategies like periodic health examinations for people at risk.</string>
+    <string name="aspirin2">	Some people get allergic reactions to even low doses of aspirin. This may cause asthma and wheezing, itchy swollen patches on the skin called hives, or even life-threatening swelling of the neck and throat that can cut off a person’s breathing. A dangerous condition called Reye’s Syndrome can happen to children who take aspirin for fevers. For this reason, Aspirin is not recommended for use in people younger than age 16 without consulting a doctor. Aspirin at high doses can cause ringing in the ears, or tinnitus.
+    		Aspirin can also cause bleeding of the stomach or intestines. People who have peptic ulcer disease, or who take either blood thinners like warfarin or Coumadin, or who take arthritis medicines called NSAIDs like naproxen or ibuprofen, should ask their doctor about aspirin use.            </string>
+    <string name="educate">Welcome to the ABCS Education. Where you will learn the ABCs of a healthy heart.\n\nA - Aspirin\nB - Blood Pressure\nC - Cholesterol\nS - Smoking\n (use the tabs to navigate or swipe page left or right)</string>
+    <string name="bloodpressure1">High blood pressure is one of the most common preventable causes of disease. It can cause heart trouble, strokes, kidney failure, blockage of arteries and aneurysms or rupture of blood vessels. Although high blood pressure can cause headache or fatigue, most of the time there are no symptoms until a serious event like heart attack or stroke occur. Generally, the risk for having a serious problem from high blood pressure increases directly with how high the reading is. A healthy blood pressure has a top number (systolic) below 135 and a bottom number (diastolic) below 85.\n
+High blood pressure can occur in families, but 95% of the time people with high blood pressure do not have a clear reason for their condition. Environmental factors play a significant role.  Factors like sodium or salt in the diet, high fat diet, smoking, being overweight, and infrequent exercise all make high blood pressure worse. Sometimes medications or drugs can make high blood pressure worse. The nicotine in tobacco can worsen high blood pressure. Commonly used cold medicines with decongestants, some prescription medicines, or even drinking too much alcohol can worsen high blood pressure. Some illegal drugs like cocaine and similar stimulants can create such a sudden elevation of blood pressure that they cause heart attacks or strokes in people who would not ordinarily be at risk. </string>
+    <string name="bloodpressure2">The most important thing you can do if you have high blood pressure is to see your doctor regularly. If medicine is recommended, then you should take it as directed every day.  The most important thing you can do for yourself, besides seeing your doctor regularly, is to make healthy lifestyle choices. These include a healthy diet, exercise, and avoiding things that make high blood pressure worse.
+        	\nA healthy diet to reduce blood pressure does not need to be a restrictive diet. Reducing sodium, or salt, will help reduce your blood pressure and risk of heart failure, stroke. or aneurysm. A diet that relies on fruits, vegetables, fish and nuts is better than a diet high in animal fats like red meats and butter.
+        	\nExercise will reduce blood pressure in at least two ways. First, exercise is important to loose weight, and weight reduction is a very important part of controlling blood pressure. Second, exercise improves blood flow through the muscles themselves and will reduce blood pressure even if you don’t loose weight.
+        	\nIf you have high blood pressure it is important to stop smoking. It is also important to reduce alcohol consumption and to avoid other chemicals, including medicines and illegal drugs that can increase the blood pressure.</string>
+    <string name="cholesterol1">Cholesterol is an important fatty chemical for humans. It helps create important hormones and makes our cells flexible. Most of the cholesterol we need is made in the body, but about 25% comes from our diet. Cholesterol in the body can exist as a good variety (HDL) or bad form (LDL). As people get older, their blood levels of cholesterol increase.
+        	The bad cholesterol, or LDL, contributes to blood vessel damage that causes hardening of the arteries, or atherosclerosis. This, along with microscopic blood clots, can crate heart attack, stroke, or peripheral vascular disease. Like high blood pressure, blockages in the arteries usually don’t have many symptoms until something serious happens, like a heart attack or stroke.</string>
+    <string name="cholesterol2">Most of the cholesterol in your body is made there, and the level is partly determined by your genes. The only way to change this is to take medications that alter how cholesterol is produced or eliminated in the body. Because a high LDL rarely has symptoms, it is important to see a doctor if you think you might have high cholesterol, or if anyone in your family has had problems with high LDL or the diseases that go with it.
+        	Even though most cholesterol is made in your body, there are still important ways to reduce your LDL Exercising regularly can improve the ratio of HDL to LDL and can lower your risk of vascular disease. Eating less saturated fat or oils and less cholesterol-rich food like red meats may help. Vegetable fiber and lean meats may help. Monosaturated oils like olive oil, along with moderate use of nuts, may help lower cholesterol.</string>
+    <string name="smoking1">	There are no health benefits to smoking or smokeless tobacco – period. Nicotine is the most widely used addictive chemical in the world, and smoking is the leading cause of preventable death in the United States. Almost 90% of lung cancer is smoking-related. Smoking causes or worsens high blood pressure, coronary heart disease, heart failure, chronic bronchitis, cancer and even arthritis. In addition to lung cancer, smokers have a higher chance of colon, breast, and bladder cancer. Doctors now know that second-hand smoke, or exposure of a non-smoker to the exhaled smoke from a smoker, also causes childhood asthma, respiratory disease, and other illness.
+        	Sometimes smokers say that nicotine calms them, but it is a stimulant, and does not “calm” the brain. Some smokers say it helps the loose weight. While nicotine does suppress the appetite, it also causes ineffective metabolism that is unhealthy. These are honestly just excuses for addiction, not health benefits.
+“What can I do about it?”
+        	The best way to avoid smoking-related health problems is to never start smoking. If you smoke, quit. Because nicotine is addictive, this is easier to say than to do. Some people can quit “cold turkey” and just stop smoking suddenly. Most people require either medication or behavioral therapy or a combination of both to successfully quit smoking. If you can’t quit the first time, just keep trying. Many smokers find that they can quit but it takes several attempts.</string>
+    <string name="smoking2"></string>
+    <string name="splash_title">HeartCare</string>
+    <string name="content_description_ekg">EKG Image</string>
+    <string name="title_activity_edit_profile">My Profile</string>
+    <string name="ageTextView">AGE:</string>
+    <string name="genderMale">MALE</string>
+    <string name="genderFemale">FEMALE</string>
+    <string name="genderTextView">GENDER:</string>
+    <string name="cholTextView">CHOL:</string>
+    <string name="hdlTextView">HDL:</string>
+    <string name="smokerCheckbox">Smoker</string>
+    <string name="smokerStatus">Smoker:</string>
+    <string name="bpTextView">BP:</string>
+    <string name="bpCheckbox">On BP Meds</string>
+    <string name="bpStatus">On BP Meds:</string>
+    <string name="updateButton">Update</string>
+    <string name="riskButton">RISK:</string>
+    <string name="emailTo">Email:</string>
+    <string name="emailContactButton">Contact List</string>
+    <string name="sendToInstructionsText">Select what information you want to send to your health care provider.</string>
+    <string name="riskScore">Framingham Risk:</string>
+    <string name="shareButton">Share</string>
+    <string name="emailHint">Enter Manually</string>
+    <string name="nameColon">Name:</string>
+    <string name="nameColonCAPS">NAME:</string>
+    <string name="phoneColon">Phone:</string>
+    <string name="textButton">Text</string>
+    <string name="profileHeading">My Profile</string>
+    <string name="na">N/A</string>
+    <string name="emailButton">Email</string>
+
+    <color name="lightBlue">#CDECFB</color>
+    <color name="notAsLightBlue">#C4EAFB</color>
+    <color name="darkBlue">#70CFF3</color>
+    <color name="red">#EE3A38</color>
+    <color name="black">#1C303A</color>
+    <color name="green">#DBE363</color>
+
+    <string name="title_activity_send_to_email">My Profile</string>
+    <string name="my_link">Support: <a href="http://www.stackoverflow.com">click here</a></string>
+    <string name="title_activity_select_contact">My Profile</string>
+    <string name="ok">Okay, I will</string>
+    <string name="cancel">Maybe later</string>
+    <string name="alert_stopsmoking_message">You need to stop smoking!</string>
+    <string name="helpStop">Help Me Quit Smoking</string>
+    <string name="title_activity_game_victory">GameVictory</string>
+    <string name="resourceTitle1">Mayo Clinic</string>
+    <string name="resourceTitle2">National Inst. of Health</string>
+    <string name="resourceTitle3">Vanderbilt Med. Center</string>
+    <string name="resourceTitle4">UAB Medicine</string>
+    <string name="resourceTitleAspirin">More Information</string>
+    <string name="resourceTitleBloodPressure">More Information</string>
+    <string name="resourceTitleCholesterol">More Information</string>
+    <string name="resourceTitleSmoking">More Information</string>
+    <string name="terms">Terms of Use</string>
+    <string name="title_activity_terms_of_use">Terms Of Use</string>
+    <string name="fullTerms">• This application is not intended to replace advice from a trained health care professional.\n\n
+        
+• This software is provided for educational purposes only.\n\n
+
+• Auburn University is not responsible for any harm arising from use of the application.\n\n
+
+• Users should seek medical advice from a trained health care professional.\n\n
+
+• Use of this software includes certain risks, namely:\n
+
+\n1.) Access by unauthorized individuals to personal information stored in the application if the device on which the application is stored is lost or stolen.\n
+
+\n2.) Access by unauthorized individuals to personal information transmitted from the application to other individuals through wired and wireless methods.\n\n
+
+Users are responsible for ensuring the security of the device on which this application is stored.\n
+    
+\nImage References: \n\n
+www.square2marketing.com \n
+blog.ivyexec.com \n
+commons.wikimedia.org \n
+www.bollyberg.com/ \n
+chiropractorrichmondhill.com \n
+www.slo-niacin.com/ \n
+havingtime.com/ \n
+thehealthyhavenblog.com \n
+www.webmd.boots.com \n</string>
+    <string name="back">Back</string>
+    <string name="infoButtonDescription">Info Button</string>
+    <string name="title_activity_fram_info_dialog">Framingham Risk</string>
+    <string name="framInfoText" formatted="false">The Framingham Risk Score is your percent of having a cardiovascular event in the next 10 years.\n\n 
+        \t&lt;1&#37; - 10&#37;: Low Risk\n\n
+        \t11&#37; - 20&#37;: Intermediate Risk\n\n
+        \t21 &#37; + : High Risk\n\n</string>
+    <string name="mainView">Main Image View</string>
+    <string name="myHeart">My Heart</string>
+    <string name="education">Education</string>
+    <string name="motivation">Motivation</string>
+    <string name="ABCS_Education">ABCS Education</string>
+    <string name="Content_Education">Education</string>
+    <string name="ResourceLinks">Resource Links</string>
+    <string name="Aspirin3D">Aspirin 3D</string>
+    <string name="AspirinPillsImage">Aspirin Pills</string>
+    <string name="whyAspirin">Why should I take Aspirin?</string>
+    <string name="bloodPressureImage1Desc">Bloodpressure measurement</string>
+    <string name="bloodPressureImage2Desc">Bloodpressure comic man</string>
+    <string name="bloodPressureBasics">Basics of Blood Pressure</string>
+    <string name="cholesterolCrashCourse">Cholesterol Crash Course</string>
+    <string name="contentDescriptionChol1">Cholesterol Flow</string>
+    <string name="contentDescriptionChol2">Cholesterol Information</string>
+
+</resources>

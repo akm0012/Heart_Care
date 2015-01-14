@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/notAsLightBlue"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <TextView
+        android:id="@+id/myProfileHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/profileHeading"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/myProfileScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/riskScoreTextView"
+        android:layout_below="@+id/myProfileHeading"
+        android:layout_marginTop="5dp"
+        android:background="@color/lightBlue"
+        android:fadeScrollbars="false"
+        android:isScrollContainer="false" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context=".EditProfile" >
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/nameColonCAPS"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/nameTextView"
+                android:layout_toRightOf="@+id/nameTextView"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/ageTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/nameTextView"
+                android:layout_below="@+id/nameTextView"
+                android:layout_marginTop="17dp"
+                android:text="@string/ageTextView"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ageTextView"
+                android:layout_toRightOf="@+id/ageTextView"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <TextView
+                android:id="@+id/bpTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/ageTextView"
+                android:layout_below="@+id/ageTextView"
+                android:layout_marginTop="17dp"
+                android:text="@string/bpTextView"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editBP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/bpTextView"
+                android:layout_toRightOf="@+id/bpTextView"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="3" />
+
+            <TextView
+                android:id="@+id/cholTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/bpTextView"
+                android:layout_below="@+id/bpTextView"
+                android:layout_marginTop="17dp"
+                android:text="@string/cholTextView"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editChol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/cholTextView"
+                android:layout_toRightOf="@+id/cholTextView"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="3" />
+
+            <TextView
+                android:id="@+id/hdlTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/cholTextView"
+                android:layout_below="@+id/cholTextView"
+                android:layout_marginTop="17dp"
+                android:text="@string/hdlTextView"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editHDL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/hdlTextView"
+                android:layout_toRightOf="@+id/hdlTextView"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="3" />
+
+            <TextView
+                android:id="@+id/genderTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hdlTextView"
+                android:layout_marginTop="17dp"
+                android:text="@string/genderTextView"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/genderRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/genderTextView"
+                android:layout_toRightOf="@+id/genderTextView" >
+
+                <RadioButton
+                    android:id="@+id/isMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/genderMale" />
+
+                <RadioButton
+                    android:id="@+id/isFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/genderFemale" />
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/isOnMedsCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/genderTextView"
+                android:layout_below="@+id/genderRadioGroup"
+                android:layout_marginBottom="15dp"
+                android:text="@string/bpCheckbox" />
+
+            <CheckBox
+                android:id="@+id/isSmokerCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/isOnMedsCheckBox"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/isOnMedsCheckBox"
+                android:text="@string/smokerCheckbox" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/riskScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/updateButton"
+        android:layout_alignLeft="@+id/updateButton"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:onClick="calculateFramScore"
+        android:text="@string/riskButton"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/infoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/riskScoreTextView"
+        android:layout_alignTop="@+id/riskScoreTextView"
+        android:layout_marginLeft="2dp"
+        android:layout_toLeftOf="@+id/riskScoreTextView"
+        android:clickable="true"
+        android:contentDescription="@string/infoButtonDescription"
+        android:onClick="showFramInfo"
+        android:src="@drawable/infobutton" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/riskScoreDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/riskScoreTextView"
+        android:layout_toRightOf="@+id/riskScoreTextView"
+        android:text="@string/na"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="true" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="save"
+        android:text="@string/updateButton" />
+
+    <Button
+        android:id="@+id/shareInfoActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/updateButton"
+        android:layout_alignBottom="@+id/updateButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:onClick="sendToEmailActivity"
+        android:text="@string/shareButton" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:drawable="@drawable/ekg_s01" android:duration="200" />
+ 	<item android:drawable="@drawable/ekg_s02" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s03" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s04" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s05" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s06" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s07" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s08" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s09" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s10" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s11" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s12" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s13" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s14" android:duration="200" />
+	<item android:drawable="@drawable/ekg_s15" android:duration="200" />
+
+
+	
+	
+	
+		
+    
+		
+</animation-list>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/lightBlue" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed bold"
+            android:text="@string/whyAspirin"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/AspirinPillsImage"
+            android:src="@drawable/aspirin" />
+        
+        <TextView
+            style="@style/ABCS_Text"
+            android:text="@string/aspirin1" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:contentDescription="@string/Aspirin3D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aspirin3d" />
+
+
+        
+        <TextView
+            style="@style/ABCS_Text"
+            android:text="@string/aspirin2" />
+        
+             <Button
+            android:id="@+id/weblinkAspirin"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="launchWebPageAspirin"
+            android:text="@string/resourceTitleAspirin" 
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+</ScrollView>
